@@ -12,7 +12,7 @@ FastMuseForObsidian 是一个 Alfred Workflow，旨在帮助用户快速将灵�
 
 ## 安装
 
-1. 确保你已经安装了 Alfred 4 并购买了 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)。
+1. 确保你已经安装了 Alfred 3（或更新版本，目前Alfred 5测试通过）并购买了 [Alfred Powerpack](https://www.alfredapp.com/powerpack/)。
 2. 确保你的系统中安装了 Python 3.6 或更高版本。你可以从 [Python 官网](https://www.python.org/downloads/) 下载并安装。
 3. 下载 `FastMuseForObsidian.alfredworkflow` 文件：[下载](https://github.com/daniellauyu/FastMuseForObsidian/blob/master/FastMuseForObsidain.alfredworkflow)
 
