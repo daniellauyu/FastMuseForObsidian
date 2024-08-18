@@ -3,7 +3,7 @@
 """
 @Project ：FormulaDesign 
 @Software : PyCharm
-@File ：fastMuseForObsidian.py
+@File ：insertInspiration.py
 @Author ：daniel lau
 @Date ：2024/8/18 00:21
 @site : www.liuyude.com
