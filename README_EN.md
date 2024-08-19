@@ -9,6 +9,7 @@ FastMuseForObsidian is an Alfred Workflow designed to help users quickly add ins
 - **Quickly Add Inspirations**: Add inspirations directly to your Obsidian journal via Alfred.
 - **Manage Tasks**: Quickly add and manage tasks in your Obsidian list.
 - **Automatic Journal Management**: Automatically recognizes dates to ensure inspirations and tasks are recorded correctly by date.
+- **All-Day Time Logging**: Quickly log what you're currently doing for easy daily review.
 
 ## Installation
 
@@ -25,6 +26,8 @@ Before using the Workflow, you need to set several environment variables to ensu
 - `DIARY_KEYWORD`: The naming keyword for journal files, default is "Fragment".
 - `INSPIRATION_TAG`: Tag for recording inspirations, default is "## Inspiration".
 - `TODO_TAG`: Tag for recording To-Do items, default is "To-Do List".
+- `TIME_LOG_PATH`: Set this to the path of your Obsidian time management folder.
+- `TIME_LOG_TAG`: The name of the time log file.
 
 These variables can be configured via the Alfred Workflow settings interface.
 
@@ -32,6 +35,7 @@ These variables can be configured via the Alfred Workflow settings interface.
 
 - **Add Inspirations**: Activate Alfred, type the keyword (e.g., `lg`) followed by your inspiration content, and press Enter to add.
 - **Add Tasks**: Activate Alfred, type the keyword (e.g., `td`) followed by the task content, and press Enter to add.
+- **Time Management Logging**: Activate Alfred, input the keyword (e.g., tl), then enter what you're doing and select a time category. Press Enter to add the entry.
 
 ## Support
 

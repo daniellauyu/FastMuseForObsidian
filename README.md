@@ -9,6 +9,7 @@ FastMuseForObsidian 是一个 Alfred Workflow，旨在帮助用户快速将灵�
 - **快速添加灵感**：直接通过 Alfred 添加灵感到你的 Obsidian 日记。
 - **管理待办事项**：快速添加和管理 Obsidian 中的待办事项列表。
 - **自动日记管理**：自动识别日期，确保灵感和待办事项按日期正确记录。
+- **全天时间记录**：快速记录当前正在做的事儿，方便进行当日回顾。
 
 ## 安装
 
@@ -26,6 +27,8 @@ FastMuseForObsidian 是一个 Alfred Workflow，旨在帮助用户快速将灵�
 - `DIARY_KEYWORD`：日记文件的命名关键词，默认为“碎片”。
 - `INSPIRATION_TAG`：用于灵感记录的标签，默认为“## 灵感”。
 - `TODO_TAG`: 用于 Todo 记录的标签，默认为"To-Do List"。
+- `TIME_LOG_PATH`: 设置为你的 Obsidian 时间管理的路径。
+- `TIME_LOG_TAG`： 时间记录文件名字。
 
 通过 Alfred 的 Workflow 设置界面可以配置这些环境变量。
 
@@ -33,6 +36,7 @@ FastMuseForObsidian 是一个 Alfred Workflow，旨在帮助用户快速将灵�
 
 - **添加灵感**：激活 Alfred，输入关键词（例如 `lg`）后跟你的灵感内容，按回车添加。
 - **添加待办事项**：激活 Alfred，输入关键词（例如 `td`）后跟待办内容，按回车添加。
+- **记录时间管理**：激活 Alfred，输入关键词（例如 `tl`）后输入正在做的事，然后选择时间分类，按回车添加。
 
 > 关键词可根据自己使用习惯自定义。
 
